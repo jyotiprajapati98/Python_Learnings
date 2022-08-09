@@ -1,0 +1,17 @@
+<!doctype html>
+<head>
+	<title>BMI Calculator</title>
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/stylish.css') }}">
+</head>
+<body>
+	<center><h2>Measure BMI</h2></center>
+	<form action="/result" method ="POST" align="center">
+		
+		<input type="text" name ="Name" placeholder="Name"/><br>
+		<input type="text" name ="Gender" placeholder="Gender Male/ Female"/><br>
+		<input type="number" name ="Age" placeholder="Age"/><br>
+		<input type="number" name ="Height" placeholder="Height in cm" /><br>
+		<input type="number" name ="Weight" placeholder="Weight in Kg"/><br>
+		<input type ="submit" value="Check BMI">
+	</form>
+</body>
