@@ -1,0 +1,4 @@
+#install required dependencies
+!pip install pandas
+!pip install qrcode
+!pip install Image
